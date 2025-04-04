@@ -801,11 +801,10 @@ body {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
-  flex: 0 1 auto;
   margin-bottom: 3rem;
 }
 .map-item {
-  flex: 1 1 calc(50% - 0.75rem);
+  flex: 1 0 35rem;
 }
 .map-item .address-title {
   background: linear-gradient(to right, #362828, #701515, #9b6767);
